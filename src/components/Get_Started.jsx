@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../styles/Get_started.css";
 import logo from "../images/as-logo.png";
 import doctor from "../images/c.png";
@@ -7,7 +7,6 @@ import Practitioner from "../images/a.png";
 import student from "../images/b.png";
 
 const Get_Started = () => {
-  const navigate = useNavigate();
   return (
     <div className="container">
       <div className="background"></div>
@@ -19,12 +18,12 @@ const Get_Started = () => {
         <p>Tell us about yourself.</p>
       </div>
       <div className="flex">
-        <Link to="/Doctor">
+        <Link to="/Practitioner">
           <div className="glass-card">
             <div className="profile-cards">
               <img src={doctor} alt="Profile 1" />
             </div>
-            <p>Doctor</p>
+            <p>Practitioner</p>
           </div>
         </Link>
         <Link to="/Student">

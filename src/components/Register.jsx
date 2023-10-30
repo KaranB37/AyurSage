@@ -1,12 +1,10 @@
 import React from "react";
 import "../styles/Register.css";
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import logo from "../images/as-logo.png";
 
 function Register() {
-  const navigate = useNavigate();
-
   return (
     <div className="register-screen">
       <div className="left-column-register"></div>

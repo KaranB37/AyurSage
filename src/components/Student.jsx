@@ -1,7 +1,5 @@
 import React from "react";
 import logo from "../images/as-logo.png";
-import doctor from "../images/c.png";
-import Practitioner from "../images/a.png";
 import student from "../images/b.png";
 import "../styles/Details.css";
 

@@ -25,6 +25,7 @@ function Login() {
           <input type="checkbox" />
           Remember Me
         </label>
+        {/*eslint-disable-next-line*/}
         <a href="#">Recover Password</a>
         <button onClick={handleButtonClick}>Login</button>
         <p>
