@@ -1,0 +1,96 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/bg-blur.jpg") no-repeat center center;
+    background-size: cover;
+  }
+ 
+  .blur-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+}
+
+.top-left img{
+    width: 8vw;
+    height: 16vh;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+  }
+
+  .top-left p{
+    position: absolute;
+    top: 10px;
+    left: 8vw;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  
+  .center-content {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .profile-cards img {
+    max-width: 14vw;
+    max-height: 20vh;
+    border-radius: 1000px;
+  }
+  
+.flex{
+    padding-top: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+  .glass-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 20vw;
+    height: 30vh;
+    flex-direction: column;
+    backdrop-filter: blur(200px);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+  }
+
+.glass-card:hover{
+    cursor: pointer;
+    transform: scale(1.2); /* Zoom in on hover */
+}
+  .glass-card p{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+
+ 

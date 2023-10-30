@@ -1,0 +1,77 @@
+
+.login-screen {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+  }
+
+  hr{
+    color: black;
+  }
+  
+  .left-column {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    background-image: url("../images/a1.png"); /* Replace with the path to your image */
+    background-size: fill; /* Image will cover the entire column */
+    background-position: center; /* Center the image horizontally and vertically */
+  }
+  
+  .right-column {
+    flex: 1.5;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  .logo {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+
+    /* Frame 1321314511 */
+
+background: #74C69D;
+border-radius: 100px;
+
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0077FF;
+    margin-top: 10px;
+  }
+  
+  
