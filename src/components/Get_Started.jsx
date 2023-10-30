@@ -19,12 +19,14 @@ const Get_Started = () => {
         <p>Tell us about yourself.</p>
       </div>
       <div className="flex">
-        <div className="glass-card">
-          <div className="profile-cards">
-            <img src={doctor} alt="Profile 1" />
+        <Link to="/Doctor">
+          <div className="glass-card">
+            <div className="profile-cards">
+              <img src={doctor} alt="Profile 1" />
+            </div>
+            <p>Doctor</p>
           </div>
-          <p>Doctor</p>
-        </div>
+        </Link>
         <Link to="/Student">
           <div className="glass-card">
             <div className="profile-cards">
@@ -33,12 +35,14 @@ const Get_Started = () => {
             <p>Student</p>
           </div>
         </Link>
-        <div className="glass-card">
-          <div className="profile-cards">
-            <img src={Practitioner} alt="Profile 1" />
+        <Link to="/Practitioner">
+          <div className="glass-card">
+            <div className="profile-cards">
+              <img src={Practitioner} alt="Profile 1" />
+            </div>
+            <p>Practitioner</p>
           </div>
-          <p>Practitioner</p>
-        </div>
+        </Link>
       </div>
     </div>
   );
